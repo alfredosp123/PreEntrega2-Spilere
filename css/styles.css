@@ -10,8 +10,6 @@
 
 
 body {
-    background: #ffffff !important;
-    flex-direction: column;
     justify-content: center;
     height: 100%;
     width: 100%;
@@ -89,6 +87,7 @@ footer{
 }
 
 .contenedor-texto {
+    font-family: 'Roboto', sans-serif;
     display: inline;
     text-align: center;
 }
@@ -172,7 +171,7 @@ textarea {
 }
 
 .button {
-    color: #fff;
+    color: rgb(3, 3, 3);
     position: relative;
     float: right;
     font-weight: 200;
@@ -187,14 +186,19 @@ textarea {
     background-color: #2A9D8F;
 }
 
+.sobremi {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .contenedor-sobremi {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px;
+    margin: 15px;
     position: relative;
-    display: flex;
-    box-sizing: border-box;
 }
 
 .texto-imagen p {
@@ -209,9 +213,8 @@ textarea {
 .contenedor-sobremi img {
     position: relative;
     display: flex;
-    height: 207px;
-    width: 200px;
-    border: solid 3px #9e2a0de1;
+    height: 300px;
+    width: 350px;
     border-radius: 7px;
     padding: 1px;
     margin-left: 10px;
@@ -250,7 +253,7 @@ textarea {
     }
 
 .formulario::placeholder {
-        color: #fff;
+        color: rgba(6, 210, 236, 0.685);
 
     }
 
