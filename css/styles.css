@@ -88,6 +88,10 @@ footer{
     margin: 15px;
 }
 
+.contenedor-texto {
+    display: inline;
+    text-align: center;
+}
 
 .contenedor-texto a {
     margin-top: 15px;
