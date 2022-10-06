@@ -123,13 +123,7 @@ footer{
     text-align: center;
 }
 
-.contenedor1 img {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    border-radius: 50px;
-}
+
 .img-index {
     width: 100%;
     height: auto;
